@@ -7,6 +7,9 @@ authors = ["Your Name <you@example.com>"]
 [tool.poetry.dependencies]
 python = ">=3.10,<=3.13"
 crewai = { extras = ["tools"], version = "^0.51.0" }
+langchain-anthropic = "^0.1.23"
+langchain-groq = "^0.1.9"
+streamlit = "^1.38.0"
 
 [tool.poetry.scripts]
 newsletter_generator = "newsletter_generator.main:run"
